@@ -1,0 +1,22 @@
+#FOOTER {
+    background: #242424;
+    padding-top: 12px;
+  }
+  
+  .footer-title {
+    font-size: 20px;
+    padding-right: 12px;
+  }
+  
+  .footer-wrapper {
+    display: flex;
+  }
+  
+  .footer-title {
+    color: white;
+    font-weight: 200;
+  }
+  
+  /*
+  
+  hi*/

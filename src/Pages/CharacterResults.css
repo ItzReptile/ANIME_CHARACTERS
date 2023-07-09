@@ -1,0 +1,139 @@
+#RESULTS {
+    background-color: gray;
+  }
+  
+  .black {
+    color: black;
+  }
+  
+  .arrow-left {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .search-results-wrapper {
+    padding-left: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .search-barv2 {
+    color: white;
+    background-color: #242424;
+    border-radius: 12px;
+    padding: 12px;
+    max-width: 250px;
+    width: 100%;
+    position: relative;
+    outline: none;
+    border-style: none;
+  }
+  
+  .search-btnv2 {
+    padding: 8px;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .search-functions-wrapper {
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+  
+  .search-results-text {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .selective {
+    color: white;
+    border-style: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: #242424;
+  }
+  
+  .character-displays {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .character-info-wrapper {
+    padding: 12px;
+    text-align: center;
+    margin: 12px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    transition: all 300ms ease;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .character-info-wrapper:hover {
+    transform: translateY(-5%);
+  }
+  
+  .learn-more {
+    font-size: 18px;
+    margin-top: 12px;
+    padding: 8px;
+    color: white;
+    background-color: #242424;
+    border-style: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .load-more {
+    border-style: none;
+    color: white;
+    background-color: #242424;
+    padding: 12px;
+    border-radius: 12px;
+    margin-left: 16px;
+  }
+  
+  .loading-state {
+    padding: 12px;
+    text-align: center;
+    margin: 12px;
+    background-color: #242424;
+    border-radius: 12px;
+    max-width: 250px;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .btn-wrapper{
+      display: flex;
+      padding-top: 12px;
+      justify-content: center;
+  }
+  @media (max-width:510px){
+      .selective{
+          padding-left: 12px;
+      }
+  }
+  @media (max-width:340px){
+      .search-results-text{
+          font-size: 16px;
+      }
+      .selective{
+          font-size: 12px;
+      }
+  }
+  
+  /*
+  
+  hi*/

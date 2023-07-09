@@ -1,0 +1,100 @@
+#LANDING {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .small{
+      width: 24px;
+  }
+  
+  
+  #LANDING::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://preview.redd.it/q5khrnrwimu71.jpg?width=1080&crop=smart&auto=webp&v=enabled&s=c55f917e1deefad50e22f5533b333ea463cb1e0b);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    z-index: -1;
+  }
+  
+  .background-blur {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .headers {
+    text-align: center;
+    color: white;
+    padding-top: 12rem;
+  }
+  
+  .header-title {
+    font-size: 48px;
+  }
+  
+  .subheader-title {
+    padding-top: 24px;
+    font-size: 24px;
+  }
+  
+  .header-title,
+  .subheader-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  }
+  
+  .searchbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 640px;
+    margin: 0 auto;
+    padding-bottom: 12rem;
+    position: relative;
+    padding-top: 6rem;
+  }
+  
+  .search-bar {
+    padding: 12px;
+    width: 100%;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #242424;
+    font-size: 32px;
+    outline: none;
+    position: relative;
+    color: white;
+  }
+  
+  .search-btn {
+    position: absolute;
+    right: 1%;
+    padding: 12px;
+    border-radius: 12px;
+    border-style: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  @media (max-width:660px){
+      .header-title{
+          font-size: 30px;
+      }
+  }
+  
+  @media (max-width:395px){
+      .search-bar{
+          font-size: 100%;
+      }
+  }
+  
+  /*ghi*/
+  /*ghi*/
+  /*ghi*/
