@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route, Rout } from "react-router-dom";
-import { LandingPage } from "./Pages/LandingPage";
-import { CharacterResults } from "./Pages/CharacterResults";
-import { CharacterInfo } from "./Pages/CharacterInfo";
-import { Footer } from "./Componets/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { LandingPage } from "./Pages/LandingPage.jsx";
+import { CharacterResults } from "./Pages/CharacterResults.jsx";
+import { CharacterInfo } from "./Pages/CharacterInfo.jsx";
+import { Footer } from "./Componets/Footer.jsx";
 
 function App() {
   return (
